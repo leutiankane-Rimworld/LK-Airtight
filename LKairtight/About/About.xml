@@ -8,7 +8,6 @@
     <packageId>LeutianKane.airtight</packageId>
     <description>Patches that make all wood,stone,and metal from vanilla and DLC airtight.Also supports Beyond Our Reach,Outer Rim Core,Alpha Animals, and Rimsenal Federation Faction mods.</description>
     <modDependencies>
-       <li>Ludeon.RimWorld.Odyssey</li>
         <li>
             <packageId>brrainz.harmony</packageId>
             <displayName>Harmony</displayName>
@@ -23,5 +22,7 @@
 		<li>Ludeon.RimWorld.Anomaly</li>
     <li>Ludeon.RimWorld.Odyssey</li>
         <li>brrainz.harmony</li>
+        <li>Neronix17.OuterRim.Core</li>
+        <li>Grimworld.Core</li>
     </loadAfter>
 </ModMetaData>
