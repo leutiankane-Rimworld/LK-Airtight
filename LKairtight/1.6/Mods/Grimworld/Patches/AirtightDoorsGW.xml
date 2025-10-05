@@ -47,6 +47,23 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[@Name="GW_GarageDoor"]/fillPercent</xpath>
+		<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="GW_GarageDoor"]</xpath>
+		<value>
+		<fillPercent>1</fillPercent>
+		</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="GW_GarageDoor"]/fillPercent</xpath>
+		<value>
+		<fillPercent>1</fillPercent>
+		</value>
+	</Operation>
+
 	<Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[@Name="GW_GarageDoor"]</xpath>
 		<value>
@@ -58,4 +75,5 @@
 
 
 </Patch>
+
 
