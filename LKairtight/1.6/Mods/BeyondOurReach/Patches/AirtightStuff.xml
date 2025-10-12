@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+<!-- Vanilla -->
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="Silver"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="Gold"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="WoodLog"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="Jade"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="BlocksSandstone"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="BlocksGranite"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="BlocksLimestone"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="BlocksMarble"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="BlocksSlate"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <!-- Odyssey -->
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="BlocksVacstone"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="Obsidian"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <!-- Beyond Our Reach -->
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="BOR_Sunsteel"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="BOR_QuasarAlloy"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="BOR_Tenebrite"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+</Patch>
